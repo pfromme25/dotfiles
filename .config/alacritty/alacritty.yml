@@ -1,0 +1,28 @@
+colors:
+  primary:
+    background: '#111111'
+    foreground: '#e0e0e0'
+  normal:
+    black:    '#000000'
+    red:      '#a62626'
+    green:    '#26a66f'
+    yellow:   '#a6a626'
+    blue:     '#2666a6'
+    magenta:  '#a626a6'
+    cyan:     '#26a6a6'
+    white:    '#ffffff'
+  bright:
+    black:    '#666666'
+    red:      '#d54848'
+    green:    '#48d597'
+    yellow:   '#d5b248'
+    blue:     '#4848d5'
+    magenta:  '#b248d5'
+    cyan:     '#488fd5'
+    white:    '#ffffff'
+font:
+  normal:
+    family: Dejavu Sans Mono
+  size: 12
+env:
+  TERM: xterm-256color
