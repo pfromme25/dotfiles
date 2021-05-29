@@ -1,3 +1,4 @@
+/* 0xide based colors (oxide.computer) */
 * {
     border: none;
     border-radius: 0;
@@ -7,65 +8,56 @@
 }
 
 window#waybar {
-    background: rgba(34, 34, 34, 1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(11, 20, 24, 1);
+    border-bottom: 1px solid rgba(48, 55, 59, 1);
     color: white;
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 10px;
     background: transparent;
     color: white;
     border-bottom: 3px solid transparent;
 }
 
 #workspaces button.visible {
-    background: #64727D;
+    background: #14312b;
     border-bottom: 3px solid white;
 }
 
 #mode, #clock, #network, #cpu, #memory, #battery, #pulseaudio, #tray {
-    padding: 0 10px;
+    padding: 0 5px;
     margin: 0 5px;
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
 }
 
 #mode {
-    background: #64727D;
+    background: #424242;
     border-bottom: 3px solid white;
 }
 
 #clock {
-    border-bottom-color: #bfbfbf;
-}
-
-#cpu {
-    border-bottom-color: #2ecc71;
-}
-
-#tray {
-    border-bottom-color: #64727D;
-}
-
-#memory {
-    border-bottom-color: #9b59b6;
+    border-bottom: 3px solid white;
 }
 
 #network {
-    border-bottom-color: #2980b9;
+    border-bottom: 3px solid #4969f6;
+}
+
+#cpu {
+    border-bottom: 3px solid #e86886;
+}
+
+#memory {
+    border-bottom: 3px solid #48d597;
 }
 
 #pulseaudio {
-    border-bottom-color: #ffff66;
+    border-bottom: 3px solid #f5cf65;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
-}
-
-#battery {
-    border-bottom-color: #ffffff;
+    background-color: #f5cf65;
+    color: black;
 }
 
 #battery.charging {

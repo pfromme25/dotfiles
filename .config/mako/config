@@ -1,4 +1,5 @@
 width=500
 default-timeout=5000
-background-color=#222222
-border-color=#ffffff
+# 0xide based colors (oxide.computer)
+background-color=#0b1418
+border-color=#48d597
