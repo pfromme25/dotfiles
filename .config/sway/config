@@ -236,11 +236,11 @@ exec_always {
 #
 for_window [title="Firefox — Sharing Indicator"] kill
 for_window [instance="google-chrome"] {
-    border pixel 2
+    border pixel 1
     inhibit_idle focus
 }
 for_window [app_id="firefox"] {
-    border pixel 2
+    border pixel 1
     inhibit_idle focus
 }
 
