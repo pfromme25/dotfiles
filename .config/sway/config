@@ -243,7 +243,21 @@ for_window [app_id="firefox"] {
     border pixel 1
     inhibit_idle focus
 }
-
+for_window [app_id="telegram-desktop_telegram-desktop"] {
+    floating enable
+}
+for_window [instance="microsoft teams - preview"] {
+    floating enable
+}
+for_window [app_id="pavucontrol"] {
+    floating enable
+}
+for_window [app_id="org.gnome.Nautilus"] {
+    floating enable
+}
+for_window [app_id="gnome-calendar"] {
+    floating enable
+}
 #
 # programs and applets
 #
