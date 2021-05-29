@@ -4,7 +4,7 @@
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-right": ["tray", "pulseaudio", "battery", "memory", "cpu", "network", "clock"],
     "sway/workspaces": {
-        "format": "{name}: {icon}",
+        "format": "{name}",
         "format-icons": {
             "1": "",
             "2": "",
