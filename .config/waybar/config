@@ -2,7 +2,7 @@
     "layer": "top",
     "height": 20,
     "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-right": ["tray", "pulseaudio", "battery", "memory", "cpu", "network", "clock"],
+    "modules-right": ["tray", "pulseaudio", "battery", "memory", "cpu", "network", "clock", "custom/power"],
     "sway/workspaces": {
         "format": "{name}",
         "format-icons": {
@@ -56,5 +56,10 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "custom/power": {
+        "format": " ",
+        "tooltip": false,
+        "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Logout' 'swaymsg exit' -b 'Reboot' 'systemctl reboot' -b 'Shutdown' 'systemctl poweroff'"
     }
 }
