@@ -18,7 +18,7 @@ set $menu wofi --width=25% -i --show=drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/backgrounds/garden-of-words/shinjuku.png fill
+output * bg ~/Pictures/backgrounds/wallpaper fill
 #
 # Example configuration:
 #
