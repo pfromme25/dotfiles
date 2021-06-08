@@ -42,6 +42,7 @@ client.unfocused #30373b #222222 #ffffff #30373b #30373b
 
 default_border pixel 2
 
+font Roboto 10
 ### Idle configuration
 #
 # Example configuration:
