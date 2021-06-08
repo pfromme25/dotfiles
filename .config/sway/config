@@ -263,6 +263,12 @@ for_window [app_id="org.gnome.Nautilus"] {
 for_window [app_id="gnome-calendar"] {
     floating enable
 }
+for_window [app_id="gnome-calculator"] {
+    floating enable
+}
+for_window [app_id="org.keepassxc.KeePassXC"] {
+    floating enable
+}
 #
 # programs and applets
 #
