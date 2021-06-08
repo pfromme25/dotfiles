@@ -1,4 +1,8 @@
 /* 0xide based colors (oxide.computer) */
+#input, #text {
+    font-family: Roboto;
+}
+
 window {
     margin: 0px;
     background-color: #14312b;
