@@ -9,7 +9,7 @@
 
 window#waybar {
     background: rgba(11, 20, 24, 1);
-    border-bottom: 1px solid rgba(48, 55, 59, 1);
+    border-bottom: 2px solid rgba(48, 55, 59, 1);
     color: white;
 }
 
@@ -17,12 +17,12 @@ window#waybar {
     padding: 0 10px;
     background: transparent;
     color: white;
-    border-bottom: 3px solid transparent;
+    border-bottom: 2px solid rgba(48, 55, 59, 1);
 }
 
 #workspaces button.visible {
     background: #14312b;
-    border-bottom: 3px solid white;
+    color: #48d597;
 }
 
 #mode, #clock, #network, #cpu, #memory, #battery, #pulseaudio, #tray {
@@ -31,38 +31,13 @@ window#waybar {
 }
 
 #mode {
-    background: #424242;
-    border-bottom: 3px solid white;
-}
-
-#clock {
-    border-bottom: 3px solid white;
-}
-
-#network {
-    border-bottom: 3px solid #4969f6;
-}
-
-#cpu {
-    border-bottom: 3px solid #e86886;
-}
-
-#memory {
-    border-bottom: 3px solid #48d597;
-}
-
-#pulseaudio {
-    border-bottom: 3px solid #f5cf65;
-}
-
-#pulseaudio.muted {
-    background-color: #f5cf65;
-    color: black;
+    background: #14312b;
+    color: #48d597;
+    border-bottom: 2px solid rgba(48, 55, 59, 1);
 }
 
 #battery.charging {
     color: white;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
