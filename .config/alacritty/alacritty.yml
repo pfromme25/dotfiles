@@ -1,7 +1,7 @@
 # 0xide based colors (oxide.computer)
 colors:
   primary:
-    background: '#0b1418'
+    background: '#0c141b'
     foreground: '#ffffff'
   normal:
     black:    '#000000'
@@ -25,6 +25,6 @@ font:
   normal:
     family: Dejavu Sans Mono
   size: 12
-background_opacity: 0.9
+background_opacity: 1
 env:
   TERM: xterm-256color
