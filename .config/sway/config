@@ -277,9 +277,6 @@ for_window [app_id="org.keepassxc.KeePassXC"] {
 #
 exec nm-applet --indicator
 exec mako
-
-bar {
-    swaybar_command waybar
-}
+exec waybar
 
 include /etc/sway/config.d/*
