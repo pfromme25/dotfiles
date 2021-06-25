@@ -100,6 +100,10 @@ input "2131:256:Topre_Corporation_HHKB_Professional" {
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+
+    # Lock screen
+    bindsym $mod+Shift+p exec swaylock -f -c 000000
+
     # Take screenshot of selection
     bindsym $mod+Shift+s exec grim -g "$(slurp)" ~/Pictures/$(date +%Y-%m-%d_%H-%M-%S).png
 #
