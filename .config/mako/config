@@ -3,3 +3,4 @@ default-timeout=5000
 # 0xide based colors (oxide.computer)
 background-color=#0b1418
 border-color=#48d597
+border-radius=3
