@@ -25,15 +25,40 @@ window#waybar {
     color: #48d597;
 }
 
-#mode, #clock, #network, #cpu, #memory, #battery, #pulseaudio, #tray {
+#custom-power {
+    margin: 0px 5px 0px 0px;
+    border-bottom: 2px solid #30373b;
+}
+
+#mode, #clock, #network, #cpu, #memory, #battery, #pulseaudio, #custom-media, #tray {
     padding: 0 5px;
     margin: 0 5px;
+    border-bottom: 2px solid #30373b;
 }
 
 #mode {
+    border-bottom: 2px solid #48d597;
+    color: #48d597;
+}
+
+#cpu {
+    background: #2c2128;
+    color: #e86886;
+}
+
+#memory {
+    background: #142139;
+    color: #4969f6;
+}
+
+#pulseaudio {
+    background: #2e3024;
+    color: #f5cf65;
+}
+
+#custom-media {
     background: #14312b;
     color: #48d597;
-    border-bottom: 2px solid rgba(48, 55, 59, 1);
 }
 
 #battery.charging {
