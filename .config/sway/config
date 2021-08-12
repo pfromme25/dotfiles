@@ -37,8 +37,9 @@ bindswitch --reload --locked lid:off output $laptop enable
 #
 #
 # 0xide based colors (oxide.computer)
-client.focused #48d597 #1d2125 #ffffff #48d597 #48d597
-client.unfocused #30373b #1d2125 #ffffff #3d4145 #3d4145
+client.focused #14312b #48d597 #000000 #ffffff #48d597
+client.focused_inactive #2e3024 #f5cf65 #000000 #ffffff #f5cf65
+client.unfocused #3d4145 #3d4145 #ffffff #3d4145 #3d4145
 
 default_border pixel 1
 
