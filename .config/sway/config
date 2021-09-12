@@ -259,9 +259,6 @@ for_window [app_id="firefox"] {
 for_window [app_id="telegram-desktop_telegram-desktop"] {
     floating enable
 }
-for_window [instance="microsoft teams - preview"] {
-    floating enable
-}
 for_window [app_id="pavucontrol"] {
     floating enable
 }
