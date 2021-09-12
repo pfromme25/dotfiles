@@ -274,6 +274,9 @@ for_window [app_id="gnome-calculator"] {
 for_window [app_id="org.keepassxc.KeePassXC"] {
     floating enable
 }
+for_window [instance="SAP GUI for Java"] {
+    floating enable
+}
 #
 # programs and applets
 #
