@@ -2,7 +2,8 @@
     "layer": "top",
     "height": 22,
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
-    "modules-right": ["tray", "custom/media", "pulseaudio", "battery", "memory", "cpu", "clock"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/media", "pulseaudio", "battery", "memory", "cpu", "tray"],
     "sway/workspaces": {
         "format": "{name}",
         "format-icons": {
