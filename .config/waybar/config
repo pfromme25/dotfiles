@@ -2,7 +2,7 @@
     "layer": "top",
     "height": 22,
     "modules-left": ["sway/workspaces", "sway/mode", "sway/window"],
-    "modules-right": ["tray", "custom/media", "pulseaudio", "battery", "memory", "cpu", "clock", "custom/power"],
+    "modules-right": ["tray", "custom/media", "pulseaudio", "battery", "memory", "cpu", "clock"],
     "sway/workspaces": {
         "format": "{name}",
         "format-icons": {
@@ -71,10 +71,5 @@
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null"
-    },
-    "custom/power": {
-        "format": "",
-        "tooltip": false,
-        "on-click": "swaynag -t warning -m 'Power Menu Options' -b 'Logout' 'swaymsg exit' -b 'Reboot' 'systemctl reboot' -b 'Shutdown' 'systemctl poweroff'"
     }
 }

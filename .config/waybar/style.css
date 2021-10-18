@@ -32,14 +32,6 @@ window#waybar {
     color: #48d597;
 }
 
-#custom-power {
-    padding: 0 5px;
-    margin: 0 0;
-    border: 2px solid #e86886;
-    background: #2c2128;
-    color: #e86886;
-}
-
 #mode, #clock, #network, #cpu, #memory, #battery, #pulseaudio, #custom-media, #tray {
     padding: 0 5px;
     margin: 0 5px;
