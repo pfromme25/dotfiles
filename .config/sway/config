@@ -105,6 +105,9 @@ input "2131:256:Topre_Corporation_HHKB_Professional" {
     # Lock screen
     bindsym $mod+Shift+p exec swaylock -f -c 000000
 
+    # Logout screen
+    bindsym $mod+Shift+grave exec wlogout
+
     # Take screenshot of selection
     bindsym $mod+Shift+s exec grim -g "$(slurp)" ~/Pictures/$(date +%Y-%m-%d_%H-%M-%S).png
 
